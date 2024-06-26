@@ -1,0 +1,31 @@
+ 1282  mkdir git-majonez
+ 1283  cd git-majonez/
+ 1284  git init
+ 1285  code main.cpp
+ 1286  git add main.cpp 
+ 1287  git commit -m"Initial commit"
+ 1288  code main.cpp 
+ 1289  git add main.cpp 
+ 1290  git commit -m"Farewell changed"
+ 1291  git show
+ 1292  git remote add origin https://github.com/MiKaz003/git-majonez.git
+ 1293  git remote -v
+ 1294  git push -u origin master
+ 1295  git checkout -b cs
+ 1296  git log
+ 1297  git reset 276ea110132a481adc4646512212eb019cca9c92
+ 1298  code main.cpp 
+ 1299  git add main.cpp 
+ 1300  git commit -m"Greetings"
+ 1301  git push origin cs
+ 1302  git checkout master 
+ 1303  git merge cs
+ 1304  git status
+ 1305  git show
+ 1306  code main.cpp 
+ 1307  git status
+ 1308  git add main.cpp 
+ 1309  git status 
+ 1310  git commit
+ 1311  history
+ 1312  history | tail -n +1282 >> history.txt
